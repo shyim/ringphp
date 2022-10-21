@@ -1,5 +1,5 @@
 {
-    "name": "ezimuel/ringphp",
+    "name": "shyim/ringphp",
     "description": "Fork of guzzle/RingPHP (abandoned) to be used with elasticsearch-php",
     "license": "MIT",
     "authors": [
@@ -19,7 +19,8 @@
         "phpunit/phpunit": "~9.0"
     },
     "replace": {
-        "guzzlehttp/ringphp": "self.version"
+        "guzzlehttp/ringphp": "self.version",
+        "ezimuel/ringphp": "self.version"
     },
     "suggest": {
         "ext-curl": "Guzzle will use specific adapters if cURL is present"
